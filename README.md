@@ -1,16 +1,6 @@
-# Plots Gallery
+# Matplotlib for Football
 
-This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot Gallery](https://jp.mathworks.com/products/matlab/plot-gallery.html).
-
-[jupyter notebook version](http://nbviewer.jupyter.org/github/goropikari/PlotsGallery.jl/blob/master/PlotsGallery.ipynb)
-
-# Docker
-```bash
-docker-compose build
-docker-compose up
-```
-
-
+A gallery for typical football visualizations created using matplotlib and their source code.
 ## Example
 
 |  Line Plot 2D 1 | Line Plot 2D 2 | Datetime Plot | Simple Fn |
@@ -99,15 +89,4 @@ docker-compose up
 
 
 # Contributing
-I appreciate all kinds of help. Please feel free to open an issue.
-
-
-# Generate notebook and site contents
-```
-docker-compose run ijulia site
-```
-
-# Reference
-Speed up plotting by [PackageCompiler](https://github.com/JuliaLang/PackageCompiler.jl)
-
-- [Creating a sysimage for fast plotting with Plots.jl](https://julialang.github.io/PackageCompiler.jl/dev/examples/plots/)
+The gallery is meant to be a community-developed project. If you have any plots you'd like to add to the gallery, feel free to contribute; I'd highly appreciate it!
