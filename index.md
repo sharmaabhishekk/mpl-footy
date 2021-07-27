@@ -15,8 +15,8 @@ This site contains examples and the accompanying code for some of the typical fo
 
 |  Scatter Plot (Squad Age Profile) | Stacked Bar Chart | Line Chart (xG Trend Chart) |
 |  ---- | ---- | ---- |
-| ![squad-age-profile.png](src/images/squad-age-profile.png) |![small_line_plot_2d_2.png](src/images/small_line_plot_2d_2.png) |![small_datetime_plot.png](src/images/small_datetime_plot.png) |
-| [View source](src/squad-age-profile.html) |[View source](src/line_plot_2d_2.md) |[View source](src/datetime_plot.md) |
+| ![squad-age-profile.png](src/images/squad-age-profile.png) |![xg-trend-line-chart.png](src/images/xg-trend-line-chart.png) |![small_datetime_plot.png](src/images/small_datetime_plot.png) |
+| [View source](src/squad-age-profile.html) |[View source](src/xg-trend-line-chart.html) |[View source](src/datetime_plot.md) |
 
 <br>
 
