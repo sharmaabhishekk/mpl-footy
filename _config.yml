@@ -2,3 +2,7 @@ theme: jekyll-theme-cayman
 title: Matplotlib for Football
 description: Gallery for Typical Football Plots created using Matplotlib
 google_analytics: UA-203311083-1
+twitter_username: abhisheksh_98
+
+title_image: "https://raw.githubusercontent.com/sharmaabhishekk/sharmaabhishekk.github.io/master/images/cover.png"
+avatar: "https://raw.githubusercontent.com/sharmaabhishekk/sharmaabhishekk.github.io/master/images/cover.png"
