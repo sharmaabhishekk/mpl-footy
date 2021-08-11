@@ -19,8 +19,8 @@ title: {{ site.name }}
           
           <div class="card">
             
-            <a class="card-post-link" href="{{ site.baseurl }}/posts_html/{{ post.post_file_name }}">
-            <img class="cover-image" src= "{{ site.baseurl }}/posts_html/images/{{ post.cover_image }}" alt="Avatar">
+            <a class="card-post-link" href="{{ site.baseurl }}{{ post.url }}">
+            <img class="cover-image" src= "{{ site.baseurl }}/assets/images/{{ post.cover_image }}" alt="Avatar">
             
               <div class="container">
                 <h4 class="card-title"><b>{{ post.title }}</b></h4>
@@ -43,7 +43,7 @@ title: {{ site.name }}
 <div id="contribution">
   <h1 class="contribution-title">Want to Contribute?</h1>
 
-    <p>Contributions are highly encouraged!</p>
+    <p><b>Contributions are highly encouraged!</b></p>
   
     <p>My idea for <strong>mpl-footy</strong> was for it to be a site where people could familiarize themselves with certain typical plots used most commonly in the football analytics industry as well as the twitter analytics sphere. If you think your contribution idea is:</p>
 
@@ -51,7 +51,7 @@ title: {{ site.name }}
       <li>Not already present or not too similar to the existing posts,</li>
       <li>Not too basic (so not a simple scatter chart or bar chart),</li>
 
-    <p>please go ahead and read through the contribution guide <a href="#">here</a>! </p>
+    <p>please go ahead and read through the contribution guide <a href="./contribution-guide.html">here</a>! </p>
 
     <p>Alternatively, if you don&#39;t have any ideas of your own but still want to contribute, I&#39;ve put together a list of plots that I want to add over the next months <a href="#">here</a>. Feel free to pick one and open a pull request (to let me know that you&#39;re working on it)!</p>
 

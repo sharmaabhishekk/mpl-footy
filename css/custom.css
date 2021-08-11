@@ -72,3 +72,7 @@ body {
   background-image: radial-gradient(#ADA996, #F2F2F2, #DBDBDB);
 
 }
+
+h1#contribution-guide {
+  text-align: center;
+}
