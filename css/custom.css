@@ -1,0 +1,78 @@
+/*Cards for each post*/
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  max-width:  16em;
+  padding: 0 0 0 0;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+ul.posts {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(19rem, 1fr));
+}
+
+a.card-post-link {
+  text-decoration: none;
+}
+
+h1.home-title, h1.contribution-title, h2.sub-section, h4.card-title {
+  text-align: center;
+  margin: 1em 0 0 0;
+}
+
+p.card-author {
+  text-align: center;
+  color: #0b8793;
+  font-size: .6em;
+}
+
+.cover-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-top: auto;
+  width: 16em;
+  height: 14em;
+
+}
+
+.main-content {
+  padding: 0 0 0 0;
+}
+
+h2.sub-section {
+  margin-bottom: 1em;
+}
+
+body {
+  background-image: radial-gradient(#ADA996, #F2F2F2, #DBDBDB);
+
+}
+
+h1#contribution-guide {
+  text-align: center;
+}
