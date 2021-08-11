@@ -10,8 +10,8 @@ category_tags: ["basic"] ##advanced
 google_analytics: UA-203311083-1
 description: Gallery for Typical Football Plots created using Matplotlib
 twitter_username: abhisheksh_98
-title_image: "https://raw.githubusercontent.com/sharmaabhishekk/mpl-footy/main/img/pitch.jpg"
-avatar: "https://raw.githubusercontent.com/sharmaabhishekk/mpl-footy/main/img/pitch.jpg"
+title_image: "https://raw.githubusercontent.com/sharmaabhishekk/mpl-footy/main/assets/pitch.jpg"
+avatar: "https://raw.githubusercontent.com/sharmaabhishekk/mpl-footy/main/assets/pitch.jpg"
 
 # About/contact
 author:
