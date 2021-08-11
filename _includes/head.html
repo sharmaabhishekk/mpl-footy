@@ -9,5 +9,27 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
   <link rel="shortcut icon" type="image/png" href="./favicon.ico">
 
+  <!-- Twitter cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ page.author }}">
+  <meta name="twitter:image" content="{{ site.title_image }}">
+  <meta name="og:image" content="{{ site.title_image }}">
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}">
+
+  {% if page.image %}
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:image" content="{{ page.image }}">
+  <meta name="twitter:title" content="{{ page.name }}" />
+
+  {% else %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.title_image }}">
+  <meta name="twitter:title" content="{{ site.title }}" />
+
+  {% endif %}
+  <!-- end of Twitter cards -->
+
 
 </head>
