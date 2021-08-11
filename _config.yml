@@ -1,26 +1,8 @@
-# Setup
 theme: jekyll-theme-cayman
-title:        Matplotlib for Football
-tagline:      A gallery of football plots | Created using matplotlib
-baseurl:      "/mpl-footy"
-paginate:     1
-locale:       "en"
-category_tags: ["basic"] ##advanced
-
-google_analytics: UA-203311083-1
+title: Matplotlib for Football
 description: Gallery for Typical Football Plots created using Matplotlib
+google_analytics: UA-203311083-1
 twitter_username: abhisheksh_98
-title_image: "https://raw.githubusercontent.com/sharmaabhishekk/mpl-footy/main/assets/pitch.jpg"
-avatar: "https://raw.githubusercontent.com/sharmaabhishekk/mpl-footy/main/assets/pitch.jpg"
 
-# About/contact
-author:
-  name:       Abhishek Sharma
-  url:        http://sharmaabhishekk.github.io/
-
-# Gems
-gems:
-  - jekyll-paginate
-
-#Others
-markdown: kramdown
+title_image: "https://raw.githubusercontent.com/sharmaabhishekk/mpl-footy/main/img/pitch.jpg"
+avatar: "https://raw.githubusercontent.com/sharmaabhishekk/mpl-footy/main/img/pitch.jpg"
