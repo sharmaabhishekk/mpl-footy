@@ -79,3 +79,6 @@ body {
 h1#contribution-guide {
   text-align: center;
 }
+
+a.hover-img img { display:none; }
+a.hover-img:hover img { display:block; }
