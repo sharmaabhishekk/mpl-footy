@@ -71,9 +71,6 @@ h2.sub-section {
 
 body {
   background-image: radial-gradient(#ADA996, #F2F2F2, #DBDBDB);
-  margin-left: 1em;
-  margin-right: 1em;
-
 }
 
 h1#contribution-guide {
@@ -82,3 +79,21 @@ h1#contribution-guide {
 
 a.hover-img img { display:none; }
 a.hover-img:hover img { display:block; }
+
+#contribution {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h1.project-name {
+  text-decoration: none;
+  color: white;
+}
+
+a.project-name {
+  color: white;
+}
+
+a.project-name:hover {
+  text-decoration: none;
+}
