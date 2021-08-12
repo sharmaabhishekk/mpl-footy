@@ -22,6 +22,7 @@
   border-radius: 5px; /* 5px rounded corners */
   max-width:  16em;
   padding: 0 0 0 0;
+  margin-bottom: 1em;
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
@@ -70,6 +71,8 @@ h2.sub-section {
 
 body {
   background-image: radial-gradient(#ADA996, #F2F2F2, #DBDBDB);
+  margin-left: 1em;
+  margin-right: 1em;
 
 }
 
